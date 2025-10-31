@@ -1,0 +1,12 @@
+
+fastapi==0.120.2
+uvicorn==0.38.0
+pydantic==2.12.3
+# json and sqlite3 are included in the standard library
+
+# Attack Server dependencies
+scikit-learn==1.6.1
+numpy==2.3.2
+httpx==0.28.1
+
+

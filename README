@@ -5,7 +5,7 @@ Install dependencies (example):
 python -m venv .venv
 source .venv/bin/activate
 pip install fastapi uvicorn scikit-learn numpy
-
+```
 
 ProjectRoot/
 ├─ Attack_Server/

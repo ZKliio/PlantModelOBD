@@ -30,7 +30,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DB_PATH = "../OBD.db"
+DB_PATH = "./OBD.db"
 
 # --- Models ---
 class TestFieldRequest(BaseModel):

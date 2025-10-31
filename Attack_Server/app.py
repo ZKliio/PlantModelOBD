@@ -1,5 +1,5 @@
 """
-Attack Server (Main Server) - WITH ITERATION STRING TRACKING
+Attack Server (Main Server) - WITH ITERATION STRING TRACKING (~ 465 lines)
 Key Addition: Tracks the updated identifier string after each iteration,
 showing progression and the top-ranked car at each step.
 """
