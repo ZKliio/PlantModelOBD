@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  # attack_server:
+  #   build: ./Attack_Server
+  #   ports:
+  #     - "8001:8000"
+  plantmodel_server:
+    build: ./PlantModel_Server
+    ports:
+      - "8002:8000"

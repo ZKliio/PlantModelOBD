@@ -1,0 +1,23 @@
+venv setup
+Install dependencies (example):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install fastapi uvicorn scikit-learn numpy
+
+
+ProjectRoot/
+├─ Attack_Server/
+│  ├─ app.py              # FastAPI app for Attack server
+│  ├─ static/             # frontend files served at /static
+│  │   └─ index.html
+│  └─ OBD.db              # SQLite DB for Attack server
+│
+├─ PlantModel_Server/
+│  ├─ app.py              # FastAPI app for PlantModel server
+│  ├─ static_model/             # frontend files served at /static
+│  │   └─ index.html
+│  └─ OBD.db              # SQLite DB for PlantModel server
+│
+└─ docker-compose.yml     # (optional) orchestrates both services
